@@ -1,0 +1,28 @@
+{
+  "name": "red-contrib-api-storage",
+  "version": "0.0.1",
+  "description": "node-red api storageModule",
+  "main": "index.js",
+  "dependencies": {
+    "fs-extra": "8.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9kl/red-contrib-api-storage.git"
+  },
+  "keywords": [
+    "node-red",
+    "storageModule"
+  ],
+  "author": "fengheping@linkeddt.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9kl/red-contrib-api-storage/issues"
+  },
+  "homepage": "https://github.com/9kl/red-contrib-api-storage#readme",
+  "node-red": {
+    "nodes": {
+      "apistorage": "index.js"
+    }
+  }
+}
